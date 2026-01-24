@@ -1,0 +1,139 @@
+/* GENERAL */
+
+.body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("3dwallpaper/greenline.jpg");
+    background-size: 100%;
+    
+    position: sticky;
+    font-weight: bold;
+    color: white;}
+
+.video-bg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+
+
+  width: 100vh;
+  height: 100vw;
+
+  object-fit: cover;
+  z-index: -1;
+
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+/* TITLE */
+.big-title {
+    text-align: center;
+    font-size: 90px;
+    color: gold;
+    margin-top: 20px;
+}
+
+/* HEADER */
+.main-header {
+    padding: 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.header-img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.agito-text {
+    flex: 1;
+    color:white;
+    background: rgba(66,66,66,0.4);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.agito-text h2 {
+    color: gold;
+    text-decoration: underline;
+}
+
+/* ⭐ GOLD BAR (FULL WIDTH, NO LEFT/RIGHT GAP) */
+.gold-bar {
+    width: 100%;
+    border:1;
+     background: rgba(66,66,66,0.3);
+    border-color:4px white;
+    padding: 25px 0;
+    margin: 30px 0;
+}
+
+.gold-content {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.gold-img {
+    width: 250px;
+    height: 200px;;
+    border-radius: 10px;
+}
+
+.gold-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* TABLE */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+td ul {
+    margin-left: 2px;
+    padding: 2px;
+    list-style-position: inside;
+    text-align: left;
+}
+
+
+.table td {
+    border: 2px solid gold;
+    padding: 2px;
+    text-align: center;
+    background: rgba(255,255,255,0.12);
+}
+
+.img {
+    width: 200px;height:auto
+}
+
+/* ROW COLORS */
+.tr1 { background: rgba(255,245,150,0.4); }
+.tr2 { background: rgba(255,200,0,0.25); }
+.tr3 { background: rgba(120,150,255,0.25); }
+.tr4 { background: rgba(255,120,120,0.25); }
+.tr5 { background: rgba(255,180,0,0.25); }
+.tr6 { background: rgba(255,140,140,0.25); }
+.tr7{ background-color:rgba(9, 159, 9, 0.263);}
+
+/* FOOTER */
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 15px;
+    background: rgba(0,0,0,0.8);
+    color: gold;
+}
+.b{margin:20px;font-size: 30px bold; color: white;}
